@@ -11,8 +11,8 @@ import coursesRaw from "@/data/courses.json";
 
 import type { Course } from "@/lib/schema";
 import { validateCourses } from "@/lib/validate";
-import { loadDataset } from "@/lib/loadDataset";
-import { filterCourses } from "@/lib/filterCourses";
+import loadDataset from "@/lib/loadDataset";
+import filterCourses from "@/lib/filterCourses";
 import { useCourseQuery } from "@/lib/useCourseQuery";
 
 export default function HomeClient() {
@@ -79,3 +79,4 @@ export default function HomeClient() {
     </div>
   );
 }
+
