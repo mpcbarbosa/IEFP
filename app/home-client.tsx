@@ -27,7 +27,7 @@ export default function HomeClient() {
 
   return (
     <div className="min-h-screen">
-      <Header />
+      <Header title="plano de formação" updateDate="18.12.2025" />
 
       <main className="mx-auto max-w-7xl px-4 pb-16 pt-4 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
@@ -59,3 +59,4 @@ export default function HomeClient() {
     </div>
   );
 }
+
