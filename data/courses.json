@@ -1,0 +1,683 @@
+{
+  "meta": {
+    "title": "Plano de Formação — Serviço de Formação Profissional de Coimbra",
+    "updateDate": "18.12.2025",
+    "trimester": "1º trimestre",
+    "contactEmail": "sfp.coimbra@iefp.pt",
+    "signupHint": "iefponline.iefp.pt",
+    "sourcePdf": "Plano de Formação — Serviço de Formação Profissional de Coimbra (Atualização: 18.12.2025)"
+  },
+  "importantNotes": [
+    "As ações de formação estão sujeitas a alterações, adiamentos ou cancelamentos por motivos imprevistos",
+    "Em caso de excesso de inscrições, será aplicado o processo de seleção com base em critérios definidos internamente, nomeadamente, priorizando utentes do Serviço de Emprego de Coimbra e Figueira da Foz",
+    "Os candidatos elegíveis e selecionados, serão contactados",
+    "Para as formações com sessões a distância, é necessário dispor de um computador com microfone, webcam e acesso à internet"
+  ],
+  "sections": [
+    {
+      "program": "APZ",
+      "title": "APZ cursos de aprendizagem",
+      "anchor": "apz",
+      "subprograms": [
+        {
+          "title": "12º ano + nível 4 (dupla certificação)",
+          "anchor": "apz-12-ano-nivel-4",
+          "requirementsText": "dupla certificação\n>=9º ano\n<=29 anos\n12º ano + nível 4\n<=11º ano"
+        }
+      ]
+    },
+    {
+      "program": "APZ+",
+      "title": "APZ+ cursos de aprendizagem +",
+      "anchor": "apz-plus",
+      "subprograms": [
+        {
+          "title": "nível 5 (certificação profissional)",
+          "anchor": "apz-plus-nivel-5",
+          "requirementsText": "certificação profissional\n>=12º ano\n<=29 anos\nnível 5"
+        }
+      ]
+    },
+    {
+      "program": "EFA",
+      "title": "EFA educação e formação de adultos",
+      "anchor": "efa",
+      "subprograms": [
+        {
+          "title": "6º ano (certificação escolar)",
+          "anchor": "efa-6-ano",
+          "requirementsText": "certificação escolar\n>=4º ano\n>=18 anos\n6º ano\n<=5º ano",
+          "notes": [
+            "*" 
+          ]
+        },
+        {
+          "title": "12º ano - nível 4 (dupla certificação)",
+          "anchor": "efa-12-ano-nivel-4",
+          "requirementsText": "dupla certificação\n>=9º ano\n>=21 anos\n12º ano + nível 4",
+          "notes": [
+            "* PRECEDE AÇÃO DE COMPETÊNCIAS HUMANAS P/ VIDA ATIVA"
+          ]
+        },
+        {
+          "title": "nível 4 (certificação profissional)",
+          "anchor": "efa-nivel-4",
+          "requirementsText": "certificação profissional\n>=12º ano\n>=18 anos\nNS PRO - nível 4",
+          "notes": [
+            "* PRECEDE AÇÃO DE INTEGRAÇÃO DE CAPACITAÇÃO DIGITAL"
+          ]
+        }
+      ]
+    },
+    {
+      "program": "CCD",
+      "title": "CCD certificado de competências digitais",
+      "anchor": "ccd",
+      "requirementsText": ">=18 anos"
+    },
+    {
+      "program": "PLA",
+      "title": "PLA português língua de acolhimento",
+      "anchor": "pla",
+      "requirementsText": ">=18 anos"
+    },
+    {
+      "program": "J+D",
+      "title": "J+D jovem + digital",
+      "anchor": "j-d",
+      "requirementsText": ">=12º ano\n<=35 anos"
+    },
+    {
+      "program": "QI",
+      "title": "QI qualificação para a internacionalização",
+      "anchor": "qi",
+      "requirementsText": ">=12º ano\n>=18 anos"
+    },
+    {
+      "program": "VA",
+      "title": "VA vida ativa",
+      "anchor": "va",
+      "subprograms": [
+        {
+          "title": "curta duração",
+          "anchor": "va-curta-duracao",
+          "requirementsText": ">=18 anos"
+        },
+        {
+          "title": "média duração",
+          "anchor": "va-media-duracao",
+          "requirementsText": ">=18 anos",
+          "notes": [
+            "(FCT) Formação em Contexto de Trabalho (estágio)"
+          ]
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "apz-tecnico-instalacoes-eletricas-coimbra-fevereiro",
+      "program": "APZ",
+      "subprogram": "12º ano + nível 4 (dupla certificação)",
+      "designation": "Técnico/a Instalações Elétricas",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+
+    {
+      "id": "apzplus-tecnico-especialista-e-commerce-coimbra-fevereiro",
+      "program": "APZ+",
+      "subprogram": "nível 5 (certificação profissional)",
+      "designation": "Técnico/a Especialista em E-Commerce",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "misto"
+    },
+    {
+      "id": "apzplus-tecnico-especialista-gestao-hoteleira-alojamento-coimbra-marco",
+      "program": "APZ+",
+      "subprogram": "nível 5 (certificação profissional)",
+      "designation": "Técnico/a Especialista em Gestão Hoteleira e Alojamento",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "misto"
+    },
+
+    {
+      "id": "efa-b2-escolar-coimbra-fevereiro",
+      "program": "EFA",
+      "subprogram": "6º ano (certificação escolar)",
+      "designation": "EFA B2 Escolar *",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["*"]
+    },
+
+    {
+      "id": "efa-mediador-intercultural-coimbra-fevereiro",
+      "program": "EFA",
+      "subprogram": "12º ano - nível 4 (dupla certificação)",
+      "designation": "Mediador/a Intercultural*",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["* PRECEDE AÇÃO DE COMPETÊNCIAS HUMANAS P/ VIDA ATIVA"]
+    },
+    {
+      "id": "efa-tecnico-mecatronica-automovel-coimbra-marco",
+      "program": "EFA",
+      "subprogram": "12º ano - nível 4 (dupla certificação)",
+      "designation": "Técnico/a de Mecatrónica Automóvel",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["* PRECEDE AÇÃO DE COMPETÊNCIAS HUMANAS P/ VIDA ATIVA"]
+    },
+
+    {
+      "id": "efa-n4-tecnico-instalacoes-eletricas-coimbra-janeiro",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a Instalações Elétricas",
+      "inscrição": "iefponline",
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "efa-n4-tecnico-seguranca-trabalho-coimbra-fevereiro",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a de Segurança no Trabalho *",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "misto",
+      "notes": ["* PRECEDE AÇÃO DE INTEGRAÇÃO DE CAPACITAÇÃO DIGITAL"]
+    },
+    {
+      "id": "efa-n4-tecnico-acao-educativa-coimbra-fevereiro",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a de Ação Educativa *",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "misto",
+      "notes": ["* PRECEDE AÇÃO DE INTEGRAÇÃO DE CAPACITAÇÃO DIGITAL"]
+    },
+    {
+      "id": "efa-n4-tecnico-refrigeracao-climatizacao-coimbra-fevereiro",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a de Refrigeração e Climatização",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "misto"
+    },
+    {
+      "id": "efa-n4-tecnico-analise-laboratorial-coimbra-marco",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a de Análise Laboratorial*",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "misto",
+      "notes": ["* PRECEDE AÇÃO DE INTEGRAÇÃO DE CAPACITAÇÃO DIGITAL"]
+    },
+    {
+      "id": "efa-n4-tecnico-gestao-administracao-mealhada-marco",
+      "program": "EFA",
+      "subprogram": "nível 4 (certificação profissional)",
+      "designation": "Técnico/a de Gestão e Administração *",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Mealhada",
+      "regime": "misto",
+      "notes": ["* PRECEDE AÇÃO DE INTEGRAÇÃO DE CAPACITAÇÃO DIGITAL"]
+    },
+
+    {
+      "id": "ccd-ccdb01-basico-coimbra-janeiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Básico (CCDB.01)",
+      "inscrição": "iefponline",
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-basico-figueira-janeiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Básico",
+      "inscrição": "iefponline",
+      "monthStart": "janeiro",
+      "concelho": "Figueira da Foz",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-avancado-coimbra-janeiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Avançado",
+      "inscrição": "iefponline",
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-ccdb02-basico-coimbra-fevereiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Básico (CCDB.02)",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-avancado-figueira-fevereiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Avançado",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Figueira da Foz",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-avancado-coimbra-fevereiro",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Avançado",
+      "inscrição": "iefponline",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-avancado-coimbra-marco-1",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Avançado",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-ccdb03-basico-coimbra-marco",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Básico (CCDB.03)",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-basico-figueira-marco",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Básico",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Figueira da Foz",
+      "regime": "presencial"
+    },
+    {
+      "id": "ccd-avancado-coimbra-marco-2",
+      "program": "CCD",
+      "designation": "Proficiência Digital - Nível Avançado",
+      "inscrição": "iefponline",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "presencial"
+    },
+
+    {
+      "id": "pla-a1-a2-iefp-coimbra-fevereiro-poslaboral",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "horario": "pós-laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-b1-b2-iefp-coimbra-fevereiro-poslaboral",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - B1 + B2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "horario": "pós-laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-figueira-fevereiro-laboral",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Figueira da Foz",
+      "monthStart": "fevereiro",
+      "concelho": "Figueira da Foz",
+      "horario": "laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-coimbra-marco-laboral-1",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "horario": "laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-coimbra-marco-laboral-2",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "horario": "laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-figueira-marco-poslaboral",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Figueira da Foz",
+      "monthStart": "março",
+      "concelho": "Figueira da Foz",
+      "horario": "pós-laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-coimbra-marco-adefinir-poslaboral-1",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "março",
+      "concelho": "a definir",
+      "horario": "pós-laboral",
+      "regime": "presencial"
+    },
+    {
+      "id": "pla-a1-a2-iefp-coimbra-marco-adefinir-poslaboral-2",
+      "program": "PLA",
+      "designation": "Português Língua de Acolhimento - A1 + A2",
+      "inscrição": "IEFP Coimbra",
+      "monthStart": "março",
+      "concelho": "a definir",
+      "horario": "pós-laboral",
+      "regime": "presencial"
+    },
+
+    {
+      "id": "jd-business-intelligence-coimbra-janeiro",
+      "program": "J+D",
+      "designation": "Business Intelligence",
+      "inscrição": "iefponline",
+      "hours": 300,
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "jd-gestao-redes-sociais-coimbra-fevereiro",
+      "program": "J+D",
+      "designation": "Gestão de Redes Sociais",
+      "inscrição": "iefponline",
+      "hours": 250,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "jd-crm-coimbra-fevereiro",
+      "program": "J+D",
+      "designation": "Customer Relationship Management (CRM)",
+      "inscrição": "iefponline",
+      "hours": 250,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "jd-ferramentas-produtividade-colaboracao-coimbra-marco",
+      "program": "J+D",
+      "designation": "Ferramentas de Produtividade e Colaboração",
+      "inscrição": "iefponline",
+      "hours": 275,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+
+    {
+      "id": "qi-internacionalizacao-fundamentos-coimbra-fevereiro",
+      "program": "QI",
+      "designation": "Internacionalização - Fundamentos",
+      "inscrição": "iefponline",
+      "hours": 275,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "qi-internacionalizacao-fundamentos-figueira-fevereiro",
+      "program": "QI",
+      "designation": "Internacionalização - Fundamentos",
+      "inscrição": "iefponline",
+      "hours": 275,
+      "monthStart": "fevereiro",
+      "concelho": "Figueira da Foz",
+      "regime": "a distância"
+    },
+
+    {
+      "id": "va-literacia-financeira-coimbra-fevereiro",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Literacia Financeira",
+      "inscrição": "iefponline",
+      "access": "----",
+      "hours": 150,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-job-skills-figueira-fevereiro",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Gestão e Desenvolvimento de Job Skills",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 50,
+      "monthStart": "fevereiro",
+      "concelho": "Figueira da Foz",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-escritorio-digital-fundamentos-35-figueira-fevereiro",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Escritório Digital - Fundamentos +35",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 125,
+      "monthStart": "fevereiro",
+      "concelho": "Figueira da Foz",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-ia-empreendedorismo-coimbra-fevereiro",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Inteligência Artificial - Empreendedorismo",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 125,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-literacia-financeira-figueira-marco",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Literacia Financeira",
+      "inscrição": "iefponline",
+      "access": "----",
+      "hours": 150,
+      "monthStart": "março",
+      "concelho": "Figueira da Foz",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-job-skills-coimbra-marco",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Gestão e Desenvolvimento de Job Skills",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 50,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-ia-ferramentas-coimbra-marco",
+      "program": "VA",
+      "subprogram": "curta duração",
+      "designation": "Inteligência Artificial - Ferramentas",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 100,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+
+    {
+      "id": "va-md-cozinheiro-cozinha-tradicional-fct-coimbra-janeiro",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Cozinheiro/a de Cozinha Tradicional (FCT)",
+      "inscrição": "iefponline",
+      "access": "-----",
+      "hours": 300,
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["(FCT) Formação em Contexto de Trabalho (estágio)"]
+    },
+    {
+      "id": "va-md-arte-floral-consolidacao-fct-coimbra-janeiro",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Arte Floral – Consolidação (FCT)",
+      "inscrição": "iefponline",
+      "access": "-----",
+      "hours": 300,
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["(FCT) Formação em Contexto de Trabalho (estágio)"]
+    },
+    {
+      "id": "va-md-turismo-inclusivo-sustentavel-fct-coimbra-janeiro",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Turismo Inclusivo e Sustentável (FCT)",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 300,
+      "monthStart": "janeiro",
+      "concelho": "Coimbra",
+      "regime": "misto",
+      "notes": ["(FCT) Formação em Contexto de Trabalho (estágio)"]
+    },
+    {
+      "id": "va-md-sapador-florestal-fundamentos-criacao-negocio-fct-coimbra-fevereiro",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Sapador Florestal - Fundamentos/Criação de Negócio (FCT)",
+      "inscrição": "iefponline",
+      "access": "-----",
+      "hours": 300,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "presencial",
+      "notes": ["(FCT) Formação em Contexto de Trabalho (estágio)"]
+    },
+    {
+      "id": "va-md-provia-ecoempreendedorismo-negocios-sustentaveis-fct-coimbra-fevereiro",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "PROVI@ - Ecoempreendedorismo-Negócios Sustentáveis (FCT)",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 300,
+      "monthStart": "fevereiro",
+      "concelho": "Coimbra",
+      "regime": "misto",
+      "notes": ["(FCT) Formação em Contexto de Trabalho (estágio)"]
+    },
+    {
+      "id": "va-md-ciencia-dados-inteligencia-analitica-35-coimbra-marco",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Ciência de Dados e Inteligência Analítica +35",
+      "inscrição": "iefponline",
+      "access": "12º ano",
+      "hours": 300,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-md-coaching-lideranca-coimbra-marco",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Coaching e Liderança",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 200,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "a distância"
+    },
+    {
+      "id": "va-md-wedding-congress-planner-fundamentos-coimbra-marco",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Wedding & Congress Planner - Fundamentos",
+      "inscrição": "iefponline",
+      "access": "9º ano",
+      "hours": 200,
+      "monthStart": "março",
+      "concelho": "Coimbra",
+      "regime": "misto"
+    },
+    {
+      "id": "va-md-gestao-residuos-solidos-fundamentos-mira-marco",
+      "program": "VA",
+      "subprogram": "média duração",
+      "designation": "Gestão de Resíduos Sólidos - Fundamentos",
+      "inscrição": "iefponline",
+      "access": "-----",
+      "hours": 200,
+      "monthStart": "março",
+      "concelho": "Mira",
+      "regime": "presencial"
+    }
+  ]
+}
