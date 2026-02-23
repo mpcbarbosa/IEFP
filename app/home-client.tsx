@@ -1,7 +1,6 @@
 ﻿"use client";
 
 import { useMemo } from "react";
-import { useSearchParams } from "next/navigation";
 
 import { Header } from "@/components/Header";
 import { IndexNav } from "@/components/IndexNav";
@@ -9,25 +8,35 @@ import { Filters } from "@/components/Filters";
 import { Section } from "@/components/Section";
 
 import coursesRaw from "@/data/courses.json";
+
+import type { Course } from "@/lib/schema";
 import { validateCourses } from "@/lib/validate";
+import { loadDataset } from "@/lib/loadDataset";
+import { filterCourses } from "@/lib/filterCourses";
+import { useCourseQuery } from "@/lib/useCourseQuery";
 
 export default function HomeClient() {
-  const searchParams = useSearchParams();
+  const { state } = useCourseQuery();
 
-  // validação (zod) dos dados locais
-  const courses = useMemo(() => validateCourses(coursesRaw as any), []);
+  const courses = useMemo(() => validateCourses(coursesRaw as any) as Course[], []);
+  const dataset = useMemo(() => loadDataset(courses), [courses]);
 
-  // leitura de filtros via query params
-  const q = (searchParams.get("q") ?? "").trim();
-  const concelho = searchParams.get("concelho") ?? "";
-  const regime = searchParams.get("regime") ?? "";
-  const mes = searchParams.get("mes") ?? "";
-  const program = searchParams.get("program") ?? "";
-  const sort = searchParams.get("sort") ?? "mes";
+  const filtered = useMemo(() => filterCourses(dataset.courses, state), [dataset.courses, state]);
+
+  const byProgram = useMemo(() => {
+    const map = new Map<string, Course[]>();
+    for (const c of filtered) {
+      const key = c.program;
+      const arr = map.get(key) ?? [];
+      arr.push(c);
+      map.set(key, arr);
+    }
+    return map;
+  }, [filtered]);
 
   return (
     <div className="min-h-screen">
-      <Header title="plano de formação" updateDate="18.12.2025" />
+      <Header title={dataset.meta.title} updateDate={dataset.meta.updateDate} />
 
       <main className="mx-auto max-w-7xl px-4 pb-16 pt-4 sm:px-6 lg:px-8">
         <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
@@ -38,9 +47,11 @@ export default function HomeClient() {
                   índice e filtros
                 </h2>
               </div>
+
               <div className="border-t border-iefp-line p-4">
-                <Filters courses={courses} />
+                <Filters dataset={dataset} />
               </div>
+
               <div className="border-t border-iefp-line p-4">
                 <IndexNav />
               </div>
@@ -48,15 +59,23 @@ export default function HomeClient() {
           </aside>
 
           <section className="space-y-8">
-            {/* A tua UI principal por secções */}
-            <Section
-              courses={courses}
-              query={{ q, concelho, regime, mes, program, sort }}
-            />
+            {dataset.sections.map((sec) => (
+              <Section
+                key={sec.anchor}
+                section={sec}
+                courses={byProgram.get(sec.program) ?? []}
+                emptyState={
+                  <div className="rounded-xl2 border border-iefp-line bg-white/70 backdrop-blur p-6 shadow-soft">
+                    <p className="text-sm text-iefp-muted">
+                      sem cursos para mostrar nesta secção com os filtros atuais
+                    </p>
+                  </div>
+                }
+              />
+            ))}
           </section>
         </div>
       </main>
     </div>
   );
 }
-
