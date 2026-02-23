@@ -7,21 +7,18 @@ import { IndexNav } from "@/components/IndexNav";
 import { Filters } from "@/components/Filters";
 import { Section } from "@/components/Section";
 
-import coursesRaw from "@/data/courses.json";
-
 import type { Course } from "@/lib/schema";
-import { validateCourses } from "@/lib/validate";
-import loadDataset from "@/lib/loadDataset";
-import filterCourses from "@/lib/filterCourses";
+import { getDataset } from "@/lib/loadDataset";
+import { applyFilters } from "@/lib/filterCourses";
 import { useCourseQuery } from "@/lib/useCourseQuery";
 
 export default function HomeClient() {
   const { state } = useCourseQuery();
 
-  const courses = useMemo(() => validateCourses(coursesRaw as any) as Course[], []);
-  const dataset = useMemo(() => loadDataset(courses), [courses]);
+  // dataset validado via zod (DatasetSchema) no getDataset()
+  const dataset = useMemo(() => getDataset(), []);
 
-  const filtered = useMemo(() => filterCourses(dataset.courses, state), [dataset.courses, state]);
+  const filtered = useMemo(() => applyFilters(dataset.courses, state), [dataset.courses, state]);
 
   const byProgram = useMemo(() => {
     const map = new Map<string, Course[]>();
@@ -79,4 +76,3 @@ export default function HomeClient() {
     </div>
   );
 }
-
